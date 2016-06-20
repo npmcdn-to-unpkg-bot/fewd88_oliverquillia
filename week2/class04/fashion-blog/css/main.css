@@ -28,6 +28,18 @@ h1{
 
 }
 
+.foot_links {
+	color: ##DD0000;
+	font-size: 16px;
+
+}
+
+.foot_links a{
+	color: ##DD0000;
+	font-size: 16px;
+
+}
+
 .headline {
 	font-size: 32px;
 	font-weight: lighter;
@@ -43,13 +55,14 @@ h1{
 
 
 .title {
-	font-size: 30px;
+	font-size: 26px;
 
 }
 
 .home {
 	color: #DD0000;
 	font-size: 50px;
+	margin-bottom: 0px;
 }
 
 .container {
@@ -61,7 +74,7 @@ h1{
 
 .story {
 	border-bottom: solid 1px gray;
-	margin-top: 140px;
+	margin-top: 100px;
 	margin-bottom: 60px;
 	width: auto;
 }
@@ -69,6 +82,9 @@ h1{
 .pagination {
 	text-align: right;
 	padding: 20px 20px;
+	color: #DD0000;
+	font-size: 18px;
+	font-weight: bold;
 
 }
 
