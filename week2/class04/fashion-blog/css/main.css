@@ -1,0 +1,75 @@
+body {
+	font-family: Lato;
+}
+
+
+
+p{
+	 color: #444444;
+	 line-height: 28px;
+	 font-size: 18px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+	color: #dddddd;
+	font-size: 20px;
+	margin-right: 14px;
+	
+}
+
+h1{
+	color: #dddddd;
+	font-weight: lighter;
+
+}
+
+.headline {
+	font-size: 32px;
+	font-weight: lighter;
+	margin-top: -6px;
+	margin-bottom: 20px;
+}
+
+.navbar {
+	float: left;
+
+}
+
+
+
+.title {
+	font-size: 30px;
+
+}
+
+.home {
+	color: #DD0000;
+	font-size: 50px;
+}
+
+.container {
+	float: left;
+	margin-left: 80px;
+	width: 720px;
+
+}
+
+.story {
+	border-bottom: solid 1px gray;
+	margin-top: 140px;
+	margin-bottom: 60px;
+	width: auto;
+}
+
+.pagination {
+	text-align: right;
+	padding: 20px 20px;
+
+}
+
+
