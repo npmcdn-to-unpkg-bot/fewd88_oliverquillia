@@ -1,0 +1,139 @@
+
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+header {
+	background-color: black;
+	line-height: 60px;
+	display: inline-block;
+	width: 100%;
+
+}
+
+footer {
+	background-color: black;
+	line-height: 60px;
+	display: inline-block;
+	width: 100%;
+
+}
+
+footer p {
+	color: #ffffff;
+	padding-left: 60px;
+}
+
+
+a {
+	color: #ffffff;
+}	
+
+
+
+.brains{
+	background-color: gray;
+	width: 100%;
+	display: inline-block;
+	line-height: 60px;
+}
+
+
+.brand {
+	font-size: 34px;
+	color: yellow;
+	padding-left: 60px;
+}
+
+.align-left {
+	float: left;
+}
+
+.align-right {
+	float: right;
+}
+
+.taste {
+	text-decoration: line-through;
+}
+
+.under {
+	text-decoration: underline;
+}
+
+.tagline {
+	text-align: center;
+	width: 500px;
+	color: black;
+	margin: 0 auto;
+
+}
+
+
+.picture {
+	background-image: url("../img/coworking.jpg");
+	
+	height: 400px;
+	width: 100%;
+
+}
+
+.match {
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 300px;
+	height: 300px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	float: right;
+
+
+}
+
+.box-copy {
+
+}
+
+.button {
+
+}
+
+.three-boxes {
+
+}
+
+.box {
+	width: 33.3%;
+	height: 300px;
+	float: left;
+
+}
+
+.box-1 {
+
+}
+
+.box-2 {
+	border-left: 1 gray;
+	border-right: 1 gray;
+
+}
+
+.box-3 {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
