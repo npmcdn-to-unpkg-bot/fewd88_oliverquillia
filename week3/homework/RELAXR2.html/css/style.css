@@ -1,0 +1,175 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f0efef;
+
+}
+
+body a {
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	background-color: #121212;
+  	display: inline-block; /* Didn't know to add this  and make the header blue again!!*/
+  	line-height: 200px;
+  	width: 100%;
+
+}
+
+article {
+	border-bottom: 1px solid #033048;
+	margin-bottom: 60px;
+}
+
+article h1 a{
+	font-size: 40px;
+	font-weight: 600;
+	color: #033048;
+}
+
+article p{
+	font-size: 24;
+	color: #606161;
+}
+
+h1 {
+	color: #033048;
+	font-size: 24px;
+	font-weight: bolder;
+
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: bolder;
+	color: white;
+
+}
+
+header {  
+  background-color: #033048;
+  height: 80px;
+
+}
+
+ul {
+	margin-left: 0;
+  	padding-left: 0;
+}
+
+li {
+	
+	list-style: none;
+}
+
+section {
+	background-color: #f9e42e;
+  	display: inline-block; /* Didn't know to add this  and make the header blue again!!*/
+  	height: 100px;
+  	width: 100%;
+  	
+
+}
+
+.adunit {
+	background-color: white;
+	height: 600px;
+	text-align: center;
+
+}
+
+#signupnow {
+	padding: 6px;
+	text-align: center;
+	background-color: #033048;
+	width: 200px;
+	margin: 0 auto; 
+	
+
+}
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+.sidebar-item {
+	margin-bottom: 40px;
+}
+
+.sidebar-item h1 a{
+	color; #033048;
+
+}
+
+.readmore {
+	text-align: right;
+	font-size: 24px;
+	font-weight: 600;
+	color: #033048;
+}
+.logo {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.logo a{
+	color: white;
+	line-height: 80px;
+}
+
+.logo-mid h1{
+	
+	color: #f9e42e;
+	font-weight: bolder;
+	font-size: 40px;
+}
+
+.logo-mid a {
+	color: #f9e42e;
+}
+
+.main-col {
+	width: 700px;
+	height: auto;
+}
+
+.navbar a{
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 80px;
+	color: #f9e42e;
+	margin-left: 20px;
+}
+
+.sidebar {
+	width: 240px;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  /* padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  /* padding: 0 10px 10px 0;  /* note the padding around a left floated image */
+}
+
+#container {
+	padding-top: 60px;
+  margin: 0 auto;
+  width: 960px;
+  overflow: auto; /* IS THE OVERFLOW THE SECRET?  */
+}
+   
+
+
