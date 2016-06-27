@@ -18,12 +18,12 @@
 
 .alignright {
   float: right;
-  /* padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
 }
 
 .alignleft {
   float: left;
-  /* padding: 0 10px 10px 0;  /* note the padding around a left floated image */
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
 /******************************************
@@ -43,24 +43,9 @@ body {
 }
 
 .navbar {
-  padding-right: 60px;
-}
-
-.navbar a{
-  color: #f9e42e; 
-  font-size: 24px; 
-  font-weight: lighter;
-  text-decoration: none;
-  padding-right: 20px;
-}
-
-.logo a{
-  display: inline-block; /* Want the box model here */
-  text-decoration: none;
-  padding-left: 60px;
-  font-size: 40px;
-  color: #ffffff;  
-  font-weight: 800;
+  float: right;
+  font-size: 24px;
+  
 }
 
 
@@ -72,49 +57,34 @@ body {
 #container {
   width: 960px;
   margin: 0 auto;
-  height: 1000px;
-  /* padding: 60px;  Not sure why I need this? */
-  /* overflow: auto;     Not sure how to use it*/ 
+  padding: 60px;
 }
 
 .main_col {
   width: 700px;
+  height: auto;
 
-
-}
-
-.sidebar_col {
-  width: 240px;
-
-}
-
-.logo-mid a{
-
-  width: 200px;
-  text-align: center;
-  margin-left: 0 auto;
-  text-align: center;
 }
 
 header {
   background-color: #033048;
-  line-height: 80px;
-  display: inline-block; /* Didn't know to add this  and make the header blue again!!*/
-  width: 100%;
+  line-height: 100px;
+  width: 100%
   
 
 }
 
 footer {
-  background-color: #033048;
-  display: inline-block; /* Didn't know to add this  and make the header blue again!!*/
-  line-height: 200px;
-  width: 100%
 
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.logo {
+  font-weight: bolder;
+  font-size: 32px;
+}
 
 
