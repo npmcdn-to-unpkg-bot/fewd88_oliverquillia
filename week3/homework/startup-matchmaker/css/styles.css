@@ -31,6 +31,17 @@ a {
 	color: #ffffff;
 }	
 
+nav {
+	margin-right: 60px;
+}
+
+nav a{
+	font-family: "Oswald";
+	font-size: 18px;
+	font-weight: lighter;
+	text-decoration: none;
+	padding-right: 20px;
+}
 
 
 .brains{
