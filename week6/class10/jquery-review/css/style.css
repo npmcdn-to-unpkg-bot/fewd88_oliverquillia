@@ -1,0 +1,21 @@
+#box1 {
+	height: 200px;
+	width: 200px;
+	background-color: gray;
+	float: left;
+}
+
+#box2 {
+	height: 200px;
+	width: 200px;
+	background-color: lightblue;
+	float: left;
+}
+
+.container {
+	padding-top: 200px;
+	padding-left: 200px;
+	width: 600px;
+	margin: 0 auto;
+
+}

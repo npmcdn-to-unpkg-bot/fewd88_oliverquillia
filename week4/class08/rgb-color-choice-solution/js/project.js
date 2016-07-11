@@ -15,10 +15,11 @@
 // 6. Use .style.background to change the background of #wrapper to colorStr
 
 
-document.getElementById('color-button').onclick = changeColor
+document.getElementById('color-button').onclick = function(){changeColor("red")}
 
-function changeColor () {
-	var red = document.getElementById('red').value;
+function changeColor (div1,div2,div3) {
+  console.log("inside changeColor", div1)
+	var red = document.getElementById(div1).value;
 	var green = document.getElementById('green').value;
 	var blue = document.getElementById('blue').value;
 

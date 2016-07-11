@@ -1,0 +1,1 @@
+$('#box1').css('background-color','blue')
