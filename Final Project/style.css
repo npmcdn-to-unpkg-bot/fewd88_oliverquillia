@@ -1,0 +1,21 @@
+body {
+background-color: #FF530D;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+nav {
+	height: 100px;
+	width: auto;
+}
+
+#Oliver {
+	font-family: 'Lobster', cursive;
+	color: white;
+	font-weight: normal;
+	font-size: 10vw;
+	text-align: center;
+}
