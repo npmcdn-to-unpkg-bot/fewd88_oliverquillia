@@ -5,3 +5,7 @@
 // 3. Inside the body of the anonymous function, use the concept of $(this) to .find() the <div class="wrapper">
 // 4. Once you find the .wrapper, use the .slideToggle() function to trigger the desired behavior
 
+$('.row').click(function() {
+	$(this).find('.wrapper').slideToggle('fast');
+});
+
