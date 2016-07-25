@@ -1,5 +1,6 @@
 body {
 background-color: #FF530D;
+font-size: 24px;
 }
 
 .container {
@@ -8,9 +9,12 @@ background-color: #FF530D;
 }
 
 #is {
-	color: black;
+	color: #0FD40D;
 }
 
+#is2 {
+	color: #BF66E4;
+}
 
 header {
 	height: 100px;
@@ -23,7 +27,7 @@ header {
 h1 {
 	color: white;
 	font-weight: 700;
-	font-size: 10vw;
+	font-size: 1.5em;
 }
 
 #Oliver {
