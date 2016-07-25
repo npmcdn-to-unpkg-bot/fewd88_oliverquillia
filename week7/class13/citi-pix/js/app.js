@@ -16,7 +16,15 @@
 //          Hint: you may have to use the .attr() method to grab the current class on <body>
 
 
-
 $(document).ready(function() {
+
+$('#city-type').change(function(){
+	var city = $('#city-type').val()
+	console.log ('it works')
+	$('body').removeClass();
+	$('body').addClass(city);
+	
+});
+
 
 });
