@@ -1,5 +1,7 @@
 body {
-background-color: #FF530D;
+/*background-color: #FF530D;
+background: url(images/me_bw.jpg) no-repeat center center fixed;
+background-size: cover; */
 font-size: 24px;
 }
 
@@ -8,26 +10,44 @@ font-size: 24px;
 	margin: 0 auto;
 }
 
+.landing_img {
+	width: 400px;
+	margin-left: 60px;
+	float: left;
+}
+
 #is {
 	color: #0FD40D;
+	font-size: .8em;
 }
 
 #is2 {
 	color: #BF66E4;
+	font-size: .8em;
 }
 
-header {
-	height: 100px;
-	width: auto;
-	padding: 20px;
-	border: bottom;
-	border-color: white;
+#is3 {
+	color: #96C7C9;
+	font-size: .8em;
+}
+
+nav {
+	line-height: 40px;
+	padding-right: 40px;
+		width: auto;
+}
+.nav a {
+	padding-left: 12px;
+	text-decoration: none;
+	float: right;
+	font-size: 20px;
+	color: white;	
 }
 
 h1 {
 	color: white;
 	font-weight: 700;
-	font-size: 1.5em;
+	font-size: 1.7em;
 }
 
 #Oliver {
