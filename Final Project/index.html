@@ -4,6 +4,7 @@
 
 <link rel="stylesheet" type="text/css" href="normalize.css">
 <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 
@@ -22,24 +23,35 @@
 <body>
 
 
-<nav class="nav">
-  <a href="#">Work</a> 
-  <a href="#">Photography</a> 
-  <a href="#">Blog</a>
-  
-</nav>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">About</a>
+  <a href="#">Work</a>
+  <a href="#">Photography</a>
+  <a href="blog.html">Blog</a>
+</div>
 	
+<div id="main">
+  
+  
+  <span id="burger" onclick="openNav()">☰</span>
+</div>
 
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+     
 	
 	<div class="container">
-		<!-- <h1 id="Oliver">Oliver Quillia <br>
-		<span id="is">Digital Producer</span> <br>
-		<span id="is2">Photographer</span> <br>
-		<span id="is3">Family Man</span>
-		</h1> -->
-		<!-- <div class="landing_img"> -->
-			<!-- <img class="landing_img" src="images/me_bw.jpg"/> -->
-		<!-- </div> -->
+	
 
 	</div>
 	
