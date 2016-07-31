@@ -1,0 +1,304 @@
+body {
+/*background-color: #FF530D;
+background: url(images/me_bw.jpg) no-repeat center center fixed;
+background-size: cover; */
+font-size: 24px;
+font-family: 'Droid Sans', sans-serif;
+}
+
+#burger {
+
+	padding-left: 20px;
+	color: red;
+	font-size:50px;
+	cursor:pointer; 
+	/*text-shadow: 2px 2px 8px #BFBFBF;*/
+
+}
+
+
+.sidenav {
+	font-family: 'Lato', sans-serif;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+	font-family: inherit;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+h1 {
+	color: yellow;
+	font-weight: 700;
+	font-size: 3.5em;
+}
+
+/*.landing_img {
+	width: 400px;
+	margin-left: 60px;
+	float: left;
+}*/
+
+
+/*#is {
+	color: #0FD40D;
+	font-size: .8em;
+}
+
+#is2 {
+	color: #BF66E4;
+	font-size: .8em;
+}
+
+#is3 {
+	color: #96C7C9;
+	font-size: .8em;
+}*/
+
+/*nav {
+	line-height: 40px;
+	padding-right: 40px;
+		width: auto;
+}
+.nav a {
+	padding-left: 12px;
+	text-decoration: none;
+	float: right;
+	font-size: 20px;
+	color: white;	
+}
+*/
+
+
+/*#Oliver {
+	font-family: 'Droid serif', sans-serif;
+	
+	float: left;
+}*/
+
+
+
+
+
+/*BLOG CSS*/
+
+
+
+
+
+.blog-article-list {
+	
+	width: 100%;
+	margin-bottom: 60px;
+
+	/*height: 200px;*/
+		
+}
+
+.blog-photo-list {
+	width: 100%;
+	height: auto;
+
+}
+
+.blog-photo {
+	background: url(images/so_la.jpg;);
+	width: 100%;
+	height: auto;
+
+}
+
+.blog-article-summary {
+	width: 60%;
+	margin: 0 auto;
+	font-size: .5em;
+	padding: 20px;
+	/*margin-top: -100px;*/
+	background-color: white;
+}
+
+.blog-article-summary h1 a{
+/*	background-color: red;*/
+	/*background: url(images/dot.png) repeat;*/
+	/*color: rgba(43,0,247,0.95);
+	text-shadow: #fa1e64 0.3125rem 0.1875rem 0,#fbe548 -0.3125rem -0.125rem 0;*/
+	text-decoration: none;
+	color: black;
+	font-family: 'Droid Serif', serif;
+	font-size: 1.1em;	
+/*	padding: 4px 14px 4px 14px;
+*/	font-weight: bold;
+}
+
+.blog-article-summary a:hover {
+	color: gray;
+	background: url(images/dot.png) repeat;
+}
+
+.blog-article-summary p{
+	font-size: 1.7em;
+	color: black;	
+}
+
+
+/*BLOG STORY*/
+
+.blog-story {
+	width: 80%;
+	margin: 0 auto; 
+	margin-bottom: 60px;
+	/*height: 200px;*/
+}
+
+.blog-story h1{
+/*	background-color: red;*/
+	/*background: url(images/dot.png) repeat;*/
+	/*color: rgba(43,0,247,0.95);
+	text-shadow: #fa1e64 0.3125rem 0.1875rem 0,#fbe548 -0.3125rem -0.125rem 0;*/
+	text-decoration: none;
+	color: black;
+	font-family: 'Droid Serif', serif;
+	font-size: 3em;	
+/*	padding: 4px 14px 4px 14px;*/	
+/*font-weight: bold;*/
+}
+
+.date {
+	font-size: 1.2em;
+	background-color: red;
+	color: white;
+	width: 40%;
+	font-style: italic;
+	font-family: 'Lato', sans-serif;
+	font-weight: thin;
+
+}
+
+.byline {
+	/*font-weight: bold;*/
+	font-style: normal;
+	color: black;
+	font-size: 1.5em;
+
+}
+
+.blog-medium-photo {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.social {
+
+}
+
+/*@media*/
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+ 
+}
+
+@media screen and (max-width: 1024px){
+	
+.blog-article-summary {
+	/*text-align: center;*/
+	line-height: 1.5em;
+	width: 90%;
+	/*margin: 0 auto;*/
+	font-size: .7em;
+/*	padding: 20px;
+*/	/*background-color: red;*/
+}
+
+.blog-article-summary h1 a{
+	/*background-color: black;*/
+	/*text-align: center;*/
+	color: black;
+	text-decoration: none;
+	font-size: .5em;	
+/*	padding: 10px 20px;
+*/}
+
+.blog-article-summary p{
+	line-height: 1.2em;
+	font-size: 1em;
+	color: black;	
+}
+
+.blog-story h1{
+	color: black;
+	text-decoration: none;
+	font-size: 1.5em;	
+	line-height: 1em;
+	/*padding: 10px 20px;*/
+
+}
+
+.blog-story p{
+	color: black;
+	text-decoration: none;
+	font-size: .7em;	
+	font-weight: lighter;
+	
+}
+
+.blog-story h2{
+	color: black;
+	text-decoration: none;
+	font-size: .7em;	
+	
+}
+
+.date {
+	font-size: 1em;
+	color: gray;
+	font-style: normal;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+
+}
+
+
+}

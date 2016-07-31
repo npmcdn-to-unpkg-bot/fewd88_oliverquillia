@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+
+	<meta charset="UTF-8">
+	<title>Oliver Quillia | Digital Producer | Photographer</title>
+<style>
+ 	/*body {
+ 		background-color: #FF530D;
+		background: url(images/me_bw.jpg) no-repeat center center fixed;
+		background-size: cover; 
+ 	}*/
+</style>
+
+</head>
+<body>
+
+<!-- SIDENAV -->
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">About</a>
+  <a href="#">Work</a>
+  <a href="#">Photography</a>
+  <a href="blog.html">Blog</a>
+</div>
+	
+<div id="main">
+  
+  <!-- DOES THIS JAVASCRIPT HAVE TO BE AT THE END? -->
+  
+  <span id="burger" onclick="openNav()">☰</span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+     
+<!-- END OF NAV -->
+	
+<!-- BEGINING OF CONTENT -->
+
+<div class="container">   
+
+<!-- BLOG -->
+
+<img class="blog-photo-list" src="images/so_la.jpg">
+<div class="blog-story">
+
+
+			<h1>Where there is a will there is a way</h1>
+			<h2>Oliver Quillia</h2>
+			<h3 class="date">July 30, 2016</h3>
+			<div class="social">
+				<a href="#"><img src="images/Flat_Social_Icons/Flat_Social_Style_01/png/64/01_twitter.png"></a>
+				<a href="#"><img src="images/Flat_Social_Icons/Flat_Social_Style_01/png/64/02_facebook.png"></a>
+			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+</div> <!-- END OF BLOG -->
+	
+<img class="blog-medium-photo" src="images/so_la_2.jpg"> <!-- IS THERE A WAY TO FLOAT LEFT ON THIS WITHOUT HAVING TO BREAK IT IN HALF? -->
+
+
+			<div class="blog-story">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+
+
+</div> <!-- END OF CONTAINER -->
+	
+
+<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+<script type="text/javascript" src ="js/script.js"></script>
+
+
+
+</body>
+</html>
