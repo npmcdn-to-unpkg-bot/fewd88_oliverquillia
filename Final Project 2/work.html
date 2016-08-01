@@ -2,26 +2,88 @@
 <html lang="en">
 <head>
 
-<link rel="stylesheet" type="text/css" href="normalize.css">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 
 	<meta charset="UTF-8">
 	<title>Oliver Quillia | Digital Producer | Photographer</title>
+<style>
+ 	body {background-color: white;}
+</style>
+
 </head>
 <body>
 
-<header>
-	<nav class="navbar"></nav>
-</header>
+<!-- SIDENAV -->
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">About</a>
+  <a href="work.html">Work</a>
+  <a href="#">Photography</a>
+  <a href="blog.html">Blog</a>
+</div>
 	
+<div id="main">
+  
+  <!-- DOES THIS JAVASCRIPT HAVE TO BE AT THE END? -->
+  
+  <span id="burger" onclick="openNav()">☰</span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+     
+<!-- END OF NAV -->
 	
+<!-- BEGINING OF CONTENT -->
+
+<div class="container">   
+
+<div class="work_section">
+ 
+ <!-- <img class="three_up" src="images/daily_debate_1.jpg"> -->
+ <img class="three_up" src="images/daily_debate_1.png">
+ <!-- <img class="three_up" src="images/daily_debate_3.jpg"> -->
+<div class="three_up_descr">
+	<h1>The Daily</h1>
+	<p>As lead interactive producer for The Daily, News Corp’s award-winning and ill-fated news app, Oliver worked with the editor-in-chief and senior creative staff to produce 40-plus interactive news pages daily. The most intense collaborative and creative experience of his career to date, The Daily team worked relentlessly around the clock to deliver interactive news experiences still not found on desktop or mobile.</p>
+
+</div>	
+
+</div>
+
+  
+
+
+
+</div> <!-- END OF CONTAINER -->
+
+<footer>
+	<div class="footer-content">
+		<h1>Contact</h1>
+		<p>Oliver Quillia</p>
+	</div>
+</footer>
 	
 
 <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
-<script type="text/javascript" src ="script.js"></script>
+<script src="jquery.slides.min.js"></script>
+<script type="text/javascript" src ="js/script.js"></script>
 
 
 
