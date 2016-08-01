@@ -4,12 +4,58 @@ background: url(images/me_bw.jpg) no-repeat center center fixed;
 background-size: cover; */
 font-size: 24px;
 font-family: 'Droid Sans', sans-serif;
+background-color: #654321;
+}
+
+footer {
+	/*width: 100%;*/
+	padding-top: 60px;
+	height: 10em;
+	/*width: 60%;
+    margin: 0 auto;*/
+    background-color: #DDE2E3;
+
+}
+
+.footer-content {
+	width: 60%;
+
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;	
+	color: black;
+	font-style: normal;
+	font-weight: 100;
+
+	
+}
+
+.footer-content h1{
+	/*width: 100%;*/
+	/*height: inherit;*/
+	/*margin: 0 auto;*/
+	color: #494949;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 1em;
+	
+}
+
+.footer-content p{
+	/*width: 100%;*/
+	/*height: inherit;*/
+	/*margin: 0 auto;*/
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: .8em;
+	
 }
 
 #burger {
 
 	padding-left: 20px;
-	color: red;
+	color: yellow;
 	font-size:50px;
 	cursor:pointer; 
 	/*text-shadow: 2px 2px 8px #BFBFBF;*/
@@ -25,7 +71,7 @@ font-family: 'Droid Sans', sans-serif;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #00DC3C;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -36,7 +82,8 @@ font-family: 'Droid Sans', sans-serif;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 20px;
-    color: #818181;
+    font-weight: 400;
+    color: black;
     display: block;
     transition: 0.3s
 }
@@ -128,7 +175,7 @@ font-family: 'Droid Sans', sans-serif;
 	
 	width: 100%;
 	margin-bottom: 60px;
-	border-bottom: 1px dashed red;
+	border-bottom: 1px dashed yellow;
 
 	/*height: 200px;*/
 		
@@ -150,10 +197,10 @@ font-family: 'Droid Sans', sans-serif;
 .blog-article-summary {
 	width: 60%;
 	margin: 0 auto;
-	font-size: .5em;
+	font-size: .7em;
 	padding: 20px;
 	/*margin-top: -100px;*/
-	background-color: white;
+	/*background-color: white;*/
 }
 
 .blog-article-summary h1 a{
@@ -162,9 +209,9 @@ font-family: 'Droid Sans', sans-serif;
 	/*color: rgba(43,0,247,0.95);
 	text-shadow: #fa1e64 0.3125rem 0.1875rem 0,#fbe548 -0.3125rem -0.125rem 0;*/
 	text-decoration: none;
-	color: black;
-	font-family: 'Droid Serif', serif;
-	font-size: 1.9em;	
+	color: #DDE2E3;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 1.6em;	
 /*	padding: 4px 14px 4px 14px;
 */	font-weight: bold;
 }
@@ -175,11 +222,11 @@ font-family: 'Droid Sans', sans-serif;
 }
 
 .blog-article-summary p{
-	font-family: 'Open Sans', serif;
+	color: #B37C57;
+	font-family: 'Lato', sans-serif;
 	font-style: normal;
-	font-weight: 300;
-	font-size: 1.7em;
-	color: black;	
+	font-weight: 100;
+	font-size: 1.5em;
 }
 
 
@@ -189,6 +236,7 @@ font-family: 'Droid Sans', sans-serif;
 	width: 60%;
 	margin: 0 auto; 
 	margin-bottom: 60px;
+	font-family: 'Droid Sans', sans-serif;
 	/*height: 200px;*/
 }
 
@@ -198,21 +246,38 @@ font-family: 'Droid Sans', sans-serif;
 	/*color: rgba(43,0,247,0.95);
 	text-shadow: #fa1e64 0.3125rem 0.1875rem 0,#fbe548 -0.3125rem -0.125rem 0;*/
 	text-decoration: none;
-	color: black;
-	font-family: 'Droid Serif', serif;
+	color: #DDE2E3; /*#654321* DDE2E3/ 
+	font-family: 'Lato', sans-serif;
 	font-size: 1.8em;	
+	font-weight: 800;
 	/*	padding: 4px 14px 4px 14px;*/	
 	/*font-weight: bold;*/
+
+}
+
+.blog-story p {
+	/*width: 60%;*/
+	/*margin: 0 auto;*/ 
+	/*margin-bottom: 60px;*/	
+	/*height: 200px;*/
+	color: #B37C57;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 1em;
+
 }
 
 .date {
+	/*padding-left: 60px;*/
 	font-size: .8em;
-	padding: 10px 24px;
-	background-color: red;
-	color: white;
+	/*	padding: 2px 10px;
+	*//*	background-color: red;*/
+	color: yellow;
 	width: 40%;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif;	
 	/*font-weight: thin;*/
+	font-size: 1em;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 100;
@@ -220,11 +285,11 @@ font-family: 'Droid Sans', sans-serif;
 
 .date_story {
 	font-size: .8em;
-	padding: 2px 10px;
-	background-color: red;
-	color: white;
+/*	padding: 2px 10px;
+*//*	background-color: red;*/
+	color: yellow;
 	width: 40%;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif;	
 	/*font-weight: thin;*/
 	font-style: normal;
 	font-variant: normal;
@@ -271,7 +336,7 @@ font-family: 'Droid Sans', sans-serif;
 #burger {
 
 	padding-left: 10px;
-	color: #00DC3C;
+	color: yellow;
 	font-size:30px;
 	cursor:pointer; 
 	/*text-shadow: 2px 2px 8px #BFBFBF;*/
@@ -282,7 +347,7 @@ font-family: 'Droid Sans', sans-serif;
 	
 	width: 100%;
 	margin-bottom: 60px;
-	border-bottom: 1px dashed #00DC3C;;
+	border-bottom: 1px dashed yellow;
 
 	/*height: 200px;*/
 		
@@ -301,7 +366,7 @@ font-family: 'Droid Sans', sans-serif;
 .blog-article-summary h1 a{
 	/*background-color: black;*/
 	/*text-align: center;*/
-	color: black;
+	color: #DDE2E3; 
 	text-decoration: none;
 	font-size: 1em;	
 
@@ -316,31 +381,51 @@ font-family: 'Droid Sans', sans-serif;
 }*/
 
 .blog-article-summary p{
-	font-family: 'Open Sans', serif;
+	color: #B37C57;
+	font-family: 'Lato', sans-serif;
 	font-style: normal;
-	font-weight: 300;
-	font-size: 1em;
-	color: black;	
+	font-weight: 100;
+	font-size: 1.3em;
+}
+
+.blog-story {
+	width: 90%;
 }
 
 .blog-story h1{
-	color: black;
+/*	background-color: red;*/
+	/*background: url(images/dot.png) repeat;*/
+	/*color: rgba(43,0,247,0.95);
+	text-shadow: #fa1e64 0.3125rem 0.1875rem 0,#fbe548 -0.3125rem -0.125rem 0;*/
 	text-decoration: none;
-	font-size: 1.5em;	
-	line-height: 1em;
-	margin: auto;
-	/*padding: 10px 20px;*/
+	color: #DDE2E3; 
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1em;	
+	font-weight: 800;
+	/*	padding: 4px 14px 4px 14px;	
+	/*font-weight: bold;*/
 
 }
 
+.blog-story p {
+	/*width: 60%;*/
+	/*margin: 0 auto;*/ 
+	/*margin-bottom: 60px;*/	
+	/*height: 200px;*/
+	color: #B37C57;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: .8em;
 
-.blog-story p{
-	color: black;
-	text-decoration: none;
-	font-size: .7em;	
-	font-weight: lighter;
-	
 }
+
+.blog-medium-photo {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
 
 .blog-story h2{
 	color: black;
@@ -350,16 +435,42 @@ font-family: 'Droid Sans', sans-serif;
 }
 
 .date {
-	font-size: .5em;
-	line-height: .4em;
-	background-color: #00DC3C;
-	color: white;
-	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	/*padding: 2px 10px;*/
+/*	background-color: red;*/
+	color: yellow;
+	width: 80%;
+	font-family: 'Lato', sans-serif;	
+	/*font-weight: thin;*/
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 100;
 
 }
+
+.date_story {
+	font-size: .5em;
+	/*padding: 2px 10px;*/
+/*	background-color: red;*/
+	color: yellow;
+	width: 80%;
+	font-family: 'Lato', sans-serif;	
+	/*font-weight: thin;*/
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+}
+
+#social_btn {
+	width: 10%;
+	height: 10%;
+}
+
+/*.social {
+	width: 50%;
+	height: 50%;
+}
+*/
 
 
 }
