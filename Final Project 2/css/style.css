@@ -184,14 +184,14 @@ footer {
 }
 
 .blog-photo-list {
-	width: 100%;
+	width: 80%;
 	height: auto;
 
 }
 
 .blog-photo {
 	background: url(images/so_la.jpg;);
-	width: 100%;
+	width: 80%;
 	height: auto;
 
 }
@@ -408,6 +408,13 @@ footer {
 
 	/*height: 200px;*/
 		
+}
+
+
+.blog-photo-list {
+	width: 100%;
+	height: auto;
+
 }
 	
 .blog-article-summary {
