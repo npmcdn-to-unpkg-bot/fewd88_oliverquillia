@@ -184,7 +184,7 @@ footer {
 }
 
 .blog-photo-list {
-	width: 80%;
+	width: 100%;
 	height: auto;
 
 }
@@ -374,6 +374,10 @@ footer {
 
 
 /*@media*/
+
+
+
+
 
 
 @media screen and (max-height: 450px) {
@@ -566,6 +570,7 @@ footer {
 	height: auto;
 	
 }  
+
 
 
 
