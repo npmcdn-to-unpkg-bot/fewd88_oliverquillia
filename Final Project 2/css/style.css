@@ -329,7 +329,7 @@ footer {
 
 .work_section{
 	width: 80%;
-	height: 600px; /*change*/
+	height: auto; /*change*/
 	margin: 0 auto;
 	margin-bottom: 100px;
 }
