@@ -1,3 +1,143 @@
+								/*SLIDEHSOW*/
+
+.clearfix {
+  overflow: auto;
+}
+
+.daily_debate {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	
+}
+
+.daily_debate h1 {
+	/*padding-left: 40px;*/
+	padding-top: 10%;
+	color: black;
+	font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.daily_debate p {
+	/*padding-left: 40px;*/
+	/*padding-top: 10%;*/
+	color: black;
+	font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1em;
+}
+
+/*.slideshow-descr {
+  max-width: 30%;
+  position: relative;
+  /*right: 75%;
+  margin: 0 auto;
+}*/
+
+/* Slideshow container */
+.slideshow-content {
+	float: left;
+	margin-right: 40px;
+  	display: inline-block;
+/*max-width: 30%;*/  
+	position: relative;
+  /*right: 25%;*/
+  /*margin: 0 auto;*/
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+								/*END OF SLIDESHOW*/
+
+
+
+
+
 body {
 /*background-color: #FF530D;
 background: url(images/me_bw.jpg) no-repeat center center fixed;
@@ -263,6 +403,42 @@ footer {
 	/*margin-bottom: 60px;*/	
 	/*height: 200px;*/
 	color: #DDE2E3;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 1em;
+
+}
+
+.blog-story_work {
+	width: 60%;
+	margin: 0 auto; 
+	margin-bottom: 60px;
+	font-family: 'Droid Sans', sans-serif;
+	/*height: 200px;*/
+}
+
+.blog-story_work h1{
+/*	background-color: red;*/
+	/*background: url(images/dot.png) repeat;*/
+	/*color: rgba(43,0,247,0.95);
+	text-shadow: #fa1e64 0.3125rem 0.1875rem 0,#fbe548 -0.3125rem -0.125rem 0;*/
+	text-decoration: none;
+	color: black; /*#654321* DDE2E3/ 
+	font-family: 'Lato', sans-serif;
+	font-size: 1.8em;	
+	font-weight: 800;
+	/*	padding: 4px 14px 4px 14px;*/	
+	/*font-weight: bold;*/
+
+}
+
+.blog-story_work p {
+	/*width: 60%;*/
+	/*margin: 0 auto;*/ 
+	/*margin-bottom: 60px;*/	
+	/*height: 200px;*/
+	color: black;
 	font-family: 'Lato', sans-serif;
 	font-style: normal;
 	font-weight: 100;
@@ -586,7 +762,12 @@ footer {
 	
 }  
 
-
+.work_section{
+	width: 100%;
+	height: auto; /*change*/
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
 
 
 } /*END OF MEDIA*/
