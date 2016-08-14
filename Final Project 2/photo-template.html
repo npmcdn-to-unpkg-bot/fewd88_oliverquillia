@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+	<meta charset="UTF-8">
+	<title>Oliver Quillia | Digital Producer | Photographer</title>
+<style>
+ 	body {
+ 		background-color: #171717;
+ 	}
+</style>
+
+</head>
+<body>
+
+<!-- SIDENAV -->
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">About</a>
+  <a href="work.html">Work</a>
+  <a href="#">Photography</a>
+  <a href="blog.html">Blog</a>
+</div>
+	
+<div id="main">
+  
+  <!-- DOES THIS JAVASCRIPT HAVE TO BE AT THE END? -->
+  
+  <span id="burger" onclick="openNav()">☰</span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+     
+<!-- END OF NAV -->
+	
+<!-- BEGINING OF CONTENT -->
+
+<div class="container">   
+
+<!-- BLOG -->
+
+<img class="blog-photo-list" src="images/street_2.jpg">
+<div class="blog-story">
+
+
+			<h1>Finishing up what I've never started</h1>
+			<h3 class="date_story">July 30, 2016 | Oliver Quillia</h3>
+			<div class="social">
+				<a href="#"><img id="social_btn" src="images/01_twitter.png"></a>
+				<a href="#"><img id="social_btn" src="images/02_facebook.png"></a>
+			</div>
+			<p>The theory of evolution by natural selection, first formulated in Darwin's book "On the Origin of Species" in 1859, is the process by which organisms change over time as a result of changes in heritable physical or behavioral traits. Changes that allow an organism to better adapt to its environment will help it survive and have more offspring. Evolution by natural selection is one of the best substantiated theories in the history of science, supported by evidence from a wide variety of scientific disciplines, including paleontology, geology, genetics and developmental biology.</p>
+			
+			<p>Evolution by natural selection is one of the best substantiated theories in the history of science, supported by evidence from a wide variety of scientific disciplines, including paleontology, geology, genetics and developmental biology.</p>
+
+</div> <!-- END OF BLOG -->
+	
+<img class="blog-medium-photo" src="images/street_3.jpg"> <!-- IS THERE A WAY TO FLOAT LEFT ON THIS WITHOUT HAVING TO BREAK IT IN HALF? -->
+
+
+			<div class="blog-story">
+			<p>The theory has two main points, said Brian Richmond, curator of human origins at the American Museum of Natural History in New York City. "All life on Earth is connected and related to each other," and this diversity of life is a product of "modifications of populations by natural selection, where some traits were favored in and environment over others," he said.</p>
+
+			<p>More simply put, the theory can be described as "descent with modification," said Briana Pobiner, an anthropologist and educator at the Smithsonian Institution National Museum of Natural History in Washington, D.C., who specializes in the study of human origins. The theory is sometimes described as "survival of the fittest," but that can be misleading, Pobiner said. Here, "fitness" refers not to an organism's strength or athletic ability, but rather the ability to survive and reproduce.</p>
+			</div>
+
+
+</div> <!-- END OF CONTAINER -->
+
+<footer>
+	<div class="footer-content">
+		<h1>Contact</h1>
+		<p>Oliver Quillia</p>
+	</div>
+</footer>
+	
+
+<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+<script type="text/javascript" src ="js/script.js"></script>
+
+
+
+</body>
+</html>
