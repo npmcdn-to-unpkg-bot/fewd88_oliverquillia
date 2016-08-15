@@ -77,21 +77,21 @@
 .daily_debate h1 {
 	/*padding-left: 40px;*/
 	color: black;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Dosis', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 1em;
+    font-weight: 600;
+    font-size: 1.1em;
 }
 
 .daily_debate p {
 	/*padding-left: 40px;*/
 	/*padding-top: 10%;*/
 	/*padding-top: 4%;*/
-	color: black;
-	font-family: 'Lato', sans-serif;
+	color: #666666;
+	font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 1em;
+    font-size: .8em;
 }
 
 #contd {
@@ -457,10 +457,12 @@ footer {
 	/*background: url(images/dot.png) repeat;*/
 	/*color: rgba(43,0,247,0.95);
 	text-shadow: #fa1e64 0.3125rem 0.1875rem 0,#fbe548 -0.3125rem -0.125rem 0;*/
+	
 	text-decoration: none;
+	font-family: 'Dosis', sans-serif;
 	color: #DDE2E3; /*#654321* DDE2E3/ 
-	font-family: 'Lato', sans-serif;
-	font-size: 1.8em;	
+	
+	
 	font-weight: 800;
 	/*	padding: 4px 14px 4px 14px;*/	
 	/*font-weight: bold;*/
@@ -473,11 +475,11 @@ footer {
 	/*margin-bottom: 60px;*/	
 	/*height: 200px;*/
 	color: #DDE2E3;
-	font-family: 'Arvo', serif;
+	font-family: 'Open Sans', sans-serif;
 	/*font-family: 'Lato', sans-serif;*/
 	font-style: normal;
-	font-weight: 400;
-	font-size: 1em;
+	font-weight: 300;
+	font-size: .8em;
 
 }
 
@@ -485,7 +487,7 @@ footer {
 	width: 60%;
 	margin: 0 auto; 
 	margin-bottom: 60px;
-	font-family: 'Dosis', sans-serif;
+	
 
 	/*font-family: 'Droid Sans', sans-serif;*/
 	/*height: 200px;*/
@@ -496,8 +498,9 @@ footer {
 	/*background: url(images/dot.png) repeat;*/
 	/*color: rgba(43,0,247,0.95);
 	text-shadow: #fa1e64 0.3125rem 0.1875rem 0,#fbe548 -0.3125rem -0.125rem 0;*/
+	font-family: 'Dosis', sans-serif;
 	text-decoration: none;
-	color: #666666; /*#654321* DDE2E3/ 
+	color: black; /*#654321* DDE2E3/ 
 	font-family: 'Lato', sans-serif;
 	font-size: 1.8em;	
 	font-weight: 800;
@@ -512,7 +515,7 @@ footer {
 	/*margin-bottom: 60px;*/	
 	/*height: 200px;*/
 	color: #666666;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: 300;
 	font-size: .8em;
@@ -866,7 +869,7 @@ footer {
 	/*padding-left: 40px;*/
 /*	padding-top: 1%;
 */	color: black;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Dosis', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.1em;
@@ -876,7 +879,7 @@ footer {
 	/*padding-left: 40px;*/
 	/*padding-top: 10%;*/
 	color: black;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: .9em;
