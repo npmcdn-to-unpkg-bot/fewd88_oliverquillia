@@ -1,3 +1,49 @@
+							/*ABOUT*/
+
+#talkbubble {
+	opacity: 0;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+	padding: 10px; 
+   width: 100px;
+   height: auto;
+   background: red;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+
+#talkbubble:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+#talkbubble:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid red;
+   border-bottom: 13px solid transparent;
+}
+
+
+.about-bubble {
+	display: block;
+	/*margin: 0 auto;*/
+	float: right;
+	margin-right: 35%;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+
 								/*SLIDEHSOW*/
 
 .photo-article-list {
@@ -49,7 +95,7 @@
 }
 
 #contd {
-padding-top: 4%;
+padding-top: 10%;
 }
 
 /*.slideshow-descr {
@@ -606,6 +652,10 @@ footer {
 }*/
 @media screen and (max-width: 1024px){
 
+#contd {
+    padding-top: 0%;
+}
+
 #burger {
 
 	padding-left: 10px;
@@ -959,6 +1009,7 @@ footer {
 	font-size: .9em;
 
 }
+
 
 
 
