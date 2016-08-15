@@ -419,8 +419,9 @@ footer {
 	text-shadow: #fa1e64 0.3125rem 0.1875rem 0,#fbe548 -0.3125rem -0.125rem 0;*/
 	text-decoration: none;
 	color: #DDE2E3;
-	font-family: 'Droid Sans', sans-serif;
-	font-size: 1.6em;	
+/*	font-family: 'Droid Sans', sans-serif;*/
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.4em;	
 /*	padding: 4px 14px 4px 14px;
 */	font-weight: bold;
 }
@@ -432,10 +433,12 @@ footer {
 
 .blog-article-summary p{
 	color: #DDE2E3;
-	font-family: 'Lato', sans-serif;
+/*	font-family: 'Lato', sans-serif;*/
+	/*font-family: 'Titillium Web', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: 100;
-	font-size: 1.5em;
+	font-size: 1.1em;
 }
 
 
@@ -445,7 +448,7 @@ footer {
 	width: 60%;
 	margin: 0 auto; 
 	margin-bottom: 60px;
-	font-family: 'Droid Sans', sans-serif;
+	/*font-family: 'Droid Sans', sans-serif;*/
 	/*height: 200px;*/
 }
 
@@ -470,28 +473,31 @@ footer {
 	/*margin-bottom: 60px;*/	
 	/*height: 200px;*/
 	color: #DDE2E3;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Arvo', serif;
+	/*font-family: 'Lato', sans-serif;*/
 	font-style: normal;
-	font-weight: 100;
+	font-weight: 400;
 	font-size: 1em;
 
 }
 
-.blog-story_work {
+.blog-story-work {
 	width: 60%;
 	margin: 0 auto; 
 	margin-bottom: 60px;
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'Dosis', sans-serif;
+
+	/*font-family: 'Droid Sans', sans-serif;*/
 	/*height: 200px;*/
 }
 
-.blog-story_work h1{
+.blog-story-work h1{
 /*	background-color: red;*/
 	/*background: url(images/dot.png) repeat;*/
 	/*color: rgba(43,0,247,0.95);
 	text-shadow: #fa1e64 0.3125rem 0.1875rem 0,#fbe548 -0.3125rem -0.125rem 0;*/
 	text-decoration: none;
-	color: black; /*#654321* DDE2E3/ 
+	color: #666666; /*#654321* DDE2E3/ 
 	font-family: 'Lato', sans-serif;
 	font-size: 1.8em;	
 	font-weight: 800;
@@ -500,16 +506,16 @@ footer {
 
 }
 
-.blog-story_work p {
+.blog-story-work p {
 	/*width: 60%;*/
 	/*margin: 0 auto;*/ 
 	/*margin-bottom: 60px;*/	
 	/*height: 200px;*/
-	color: black;
+	color: #666666;
 	font-family: 'Lato', sans-serif;
 	font-style: normal;
-	font-weight: 100;
-	font-size: 1em;
+	font-weight: 300;
+	font-size: .8em;
 
 }
 
@@ -972,7 +978,7 @@ footer {
 
 /*BLOG STORY WORK*/
 
-.blog-story_work {
+.blog-story-work {
 	width: 80%;
 	margin: 0 auto; 
 	margin-bottom: 60px;
@@ -980,7 +986,7 @@ footer {
 	/*height: 200px;*/
 }
 
-.blog-story_work h1{
+.blog-story-work h1{
 /*	background-color: red;*/
 	/*background: url(images/dot.png) repeat;*/
 	/*color: rgba(43,0,247,0.95);
@@ -997,7 +1003,7 @@ footer {
 
 }
 
-.blog-story_work p {
+.blog-story-work p {
 	/*width: 60%;*/
 	/*margin: 0 auto;*/ 
 	/*margin-bottom: 60px;*/	
